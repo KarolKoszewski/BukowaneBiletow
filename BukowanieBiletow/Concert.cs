@@ -35,4 +35,20 @@ public class Concert : IConcert
         }
         
     }
+    
+    public void cancleTicket()
+    {
+        Console.WriteLine("Are you sure you want to cancel the ticket? (y/n)");
+        string input = Console.ReadLine();
+
+        if (input == "y")
+        {
+            AvailableSeats++;
+            Console.WriteLine("Successfully cancled ticket!");
+        }
+        else
+        {
+            Console.WriteLine("Invalid input!");
+        }
+    }
 }
