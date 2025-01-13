@@ -1,0 +1,15 @@
+C:\Users\karol\RiderProjects\BukowanieBiletow\BukowanieBiletow\bin\Debug\net9.0\BukowanieBiletow.exe
+C:\Users\karol\RiderProjects\BukowanieBiletow\BukowanieBiletow\bin\Debug\net9.0\BukowanieBiletow.deps.json
+C:\Users\karol\RiderProjects\BukowanieBiletow\BukowanieBiletow\bin\Debug\net9.0\BukowanieBiletow.runtimeconfig.json
+C:\Users\karol\RiderProjects\BukowanieBiletow\BukowanieBiletow\bin\Debug\net9.0\BukowanieBiletow.dll
+C:\Users\karol\RiderProjects\BukowanieBiletow\BukowanieBiletow\bin\Debug\net9.0\BukowanieBiletow.pdb
+C:\Users\karol\RiderProjects\BukowanieBiletow\BukowanieBiletow\obj\Debug\net9.0\BukowanieBiletow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karol\RiderProjects\BukowanieBiletow\BukowanieBiletow\obj\Debug\net9.0\BukowanieBiletow.AssemblyInfoInputs.cache
+C:\Users\karol\RiderProjects\BukowanieBiletow\BukowanieBiletow\obj\Debug\net9.0\BukowanieBiletow.AssemblyInfo.cs
+C:\Users\karol\RiderProjects\BukowanieBiletow\BukowanieBiletow\obj\Debug\net9.0\BukowanieBiletow.csproj.CoreCompileInputs.cache
+C:\Users\karol\RiderProjects\BukowanieBiletow\BukowanieBiletow\obj\Debug\net9.0\BukowanieBiletow.sourcelink.json
+C:\Users\karol\RiderProjects\BukowanieBiletow\BukowanieBiletow\obj\Debug\net9.0\BukowanieBiletow.dll
+C:\Users\karol\RiderProjects\BukowanieBiletow\BukowanieBiletow\obj\Debug\net9.0\refint\BukowanieBiletow.dll
+C:\Users\karol\RiderProjects\BukowanieBiletow\BukowanieBiletow\obj\Debug\net9.0\BukowanieBiletow.pdb
+C:\Users\karol\RiderProjects\BukowanieBiletow\BukowanieBiletow\obj\Debug\net9.0\BukowanieBiletow.genruntimeconfig.cache
+C:\Users\karol\RiderProjects\BukowanieBiletow\BukowanieBiletow\obj\Debug\net9.0\ref\BukowanieBiletow.dll
