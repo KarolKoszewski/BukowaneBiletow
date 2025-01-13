@@ -8,17 +8,17 @@ public class OnLineConcert : IConcert
     public int TotalNumberOfSeats { get; }
     public int AvailableSeats { get; set; }
     public int Price { get; }
-
-    public OnLineConcert(string name, DateTime date, string location, int totalNumberOfSeats, int price, int availableSeats)
+    
+    public OnLineConcert(string name, DateTime date, string location, int totalNumberOfSeats, int price,int availableSeats)
     {
-        Name = name;
+        this.Name = name;
         Date = date;
         Location = location;
         TotalNumberOfSeats = totalNumberOfSeats;
         Price = price;
         AvailableSeats = availableSeats;
     }
-    
+
     public void bookTicket()
     {
         if (AvailableSeats > 0)
