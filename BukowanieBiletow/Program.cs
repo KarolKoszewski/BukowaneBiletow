@@ -151,6 +151,82 @@ internal class Program
                     concert3.cancleTicket();
                 }
             }
+            else if (userChoice3 == 3) {
+                bookingSystem.ShowOnlineConcerts();
+                bookingSystem.ShowNormalConcerts();
+                bookingSystem.ShowVipConcerts();
+                bookingSystem.ShowPrivateConcerts();
+                
+            }
+            else if (userChoice3 == 4)
+            {
+                Environment.Exit(0);
+            }
+        }
+        else if (userChoice == 3) {
+            Console.WriteLine("What do you want to do?");
+            Console.WriteLine("1. Show available tickets");
+            Console.WriteLine("2. Add Concert");
+            Console.WriteLine("3. Exit");
+            
+            int userChoice4 = int.Parse(Console.ReadLine());
+
+            if (userChoice4 == 1)
+            {
+                bookingSystem.ShowOnlineConcerts();
+                bookingSystem.ShowNormalConcerts();
+                bookingSystem.ShowVipConcerts();
+                bookingSystem.ShowPrivateConcerts();
+            }
+            else if (userChoice4 == 2)
+            {
+                Console.WriteLine("What type of concert do you want to add(1-Online,2-Normal,3-Vip,4-Private)");
+                int userChoice5 = int.Parse(Console.ReadLine());
+                
+                Console.WriteLine("Enter concert name:");
+                string name = Console.ReadLine();
+
+                Console.WriteLine("Enter concert date (yyyy-MM-dd):");
+                DateTime date = DateTime.Parse(Console.ReadLine());
+
+                Console.WriteLine("Enter location:");
+                string location = Console.ReadLine();
+
+                Console.WriteLine("Enter total number of seats:");
+                int totalSeats = int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Enter ticket price:");
+                int price = int.Parse(Console.ReadLine());
+                
+                Console.WriteLine("Enter amount of tickets:");
+                int amount = int.Parse(Console.ReadLine());
+
+                if (userChoice5 == 1)
+                {
+                    OnLineConcert newConcertOnline = new OnLineConcert(name, date, location, totalSeats, price, amount);
+                }
+                else if (userChoice5 == 2)
+                {
+                    Concert newNormalConcert = new Concert(name, date, location, totalSeats, amount, price);
+                }
+                else if (userChoice5 == 3)
+                {
+                    VipConcert newVipConcert = new VipConcert(name, date, location, totalSeats, amount, price);
+                }
+                else if (userChoice5 == 4)
+                {
+                    PrivateConcert newPrivateConcert = new PrivateConcert(name, date, location, totalSeats, price, amount);
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input");
+                    Environment.Exit(0);
+                }
+            }
+            else if (userChoice4 == 3)
+            {
+                Environment.Exit(0);
+            }
         }
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BukowanieBiletow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68c25d4452edf251c40a2d08b1719e2791ceef71")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b571bc0c64316f38cd979e379e99ae9335b34443")]
 [assembly: System.Reflection.AssemblyProductAttribute("BukowanieBiletow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BukowanieBiletow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
