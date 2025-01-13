@@ -9,36 +9,8 @@ public interface IConcert
     int AvailableSeats { get; set; }
     int Price { get; }
 
-    public void bookTicket()
-    {
-        if (AvailableSeats > 0)
-        {
-            Console.WriteLine("How many tickets do you want to book?");
-            int numberOfTickets = int.Parse(Console.ReadLine());
-            AvailableSeats=AvailableSeats-numberOfTickets;
-            Console.WriteLine($"You've booked: {numberOfTickets}! Available seats: {AvailableSeats}");
-            
-        }
-        else
-        {
-            Console.WriteLine("No available seats!");
-        }
-    }
+    public void bookTicket();
+    public void cancleTicket();
 
-    public void cancleTicket()
-    {
-        Console.WriteLine("Are you sure you want to cancel the ticket? (y/n)");
-        string input = Console.ReadLine();
 
-        if (input == "y")
-        {
-            AvailableSeats++;
-            Console.WriteLine("Successfully cancled ticket!");
-        }
-        else
-        {
-            Console.WriteLine("Invalid input!");
-        }
-    }
-    
 }
