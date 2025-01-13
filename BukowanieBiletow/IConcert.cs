@@ -8,4 +8,6 @@ public interface IConcert
     int TotalNumberOfSeats { get; }
     int AvailableSeats { get; }
     int Price { get; }
+
+    public void bookTicket();
 }
